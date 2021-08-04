@@ -1,0 +1,44 @@
+.Modal {
+    z-index: 130;
+    position: fixed;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 65%;
+    background: #5a687e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Modal form {
+      padding: 1rem 0;
+      width: 75%;
+  }
+
+  .Modal form input{
+      margin: .7rem 0;
+      height: 35px;
+      width: 100%;
+  }
+  .Modal form input:focus{
+    outline: none;
+  }
+  .Modal form button{
+      width: 95px;
+      height: 45px
+  }
+  .Modal form .modal-form-buttons{
+      display: flex;
+      justify-content: space-between;
+  }
+  @media (max-width: 460px){
+      .Modal {
+          width: 95%
+      }
+      .Modal form{
+          width: 85%
+      }
+  }

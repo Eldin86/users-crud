@@ -1,0 +1,35 @@
+.Header {
+  text-align: center;
+  background-color: #ffc1cd;
+  height: 150px;
+  margin-bottom: 2rem;
+}
+.Header h1 {
+  margin-top: 0px;
+  padding: 1rem 0 0.3rem 0;
+  color: #363636;
+}
+.Header form {
+  height: 35px;
+}
+.Header input {
+  border: 0px;
+  width: 250px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 0 0 0 3px;
+}
+.Header input:focus {
+  outline: none;
+}
+.Header input,
+.Header button {
+  height: 35px;
+}
+.Header button {
+  background-color: #363636;
+  border: 3px solid #363636;
+  color: #ffffff;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
